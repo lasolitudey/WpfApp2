@@ -12,12 +12,14 @@
             <Button Content="x" HorizontalAlignment="Left" Height="35.333" Margin="1297.334,0,0,0" VerticalAlignment="Top" Width="70" FontSize="24" FontFamily="Showcard Gothic" Background="#FFC10C0C" Click="Button1_Click" BorderBrush="{x:Null}"/>
             <Button Content="—" HorizontalAlignment="Left" Height="35.333" Margin="1227.334,0,0,0" VerticalAlignment="Top" Width="70" FontSize="24" FontFamily="Showcard Gothic" Background="#FFC10C0C" Click="Button2_Click" BorderBrush="{x:Null}"/>
         </Grid>
-        <DockPanel Height="764" LastChildFill="False" VerticalAlignment="Top" Width="47.334" Background="#FFE6E6E6">
-            <Button  Height="33.334" VerticalAlignment="Top" Width="47.334" RenderTransformOrigin="0.507,-0.2" BorderBrush="#FFE6E6E6" Background="#FFE6E6E6" Click="Button3_Click">
-                <Button.Content>
-                    <StackPanel Orientation="Horizontal" Width="47.334"/>
-                </Button.Content>
+        <StackPanel Height="765" VerticalAlignment="Top" Width="60" Background="Gray">
+            <Button Width="60" Height="45">
+                
             </Button>
-        </DockPanel>
+            <Button Width="60" Height="45">
+                
+            </Button>
+        </StackPanel>
+        <StackPanel Height="765" VerticalAlignment="Top" Width="100"/>
     </DockPanel>
 </Window>
